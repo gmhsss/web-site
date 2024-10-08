@@ -1,0 +1,14 @@
+<html>
+<body>
+<form action="http://10.25.76.200:80/del_user"
+method="post">
+<select name="user" class="Input">
+{% for key, value in users.items() %}
+<option>{{ key }}</option>
+{% endfor %}
+<p><input type = "submit" value =
+"Deletar" /></p>
+</select>
+</form>
+</body>
+</html>

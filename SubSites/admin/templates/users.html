@@ -1,0 +1,12 @@
+{% extends"base1.html" %}
+{% block content%}
+<h1>Usuários</h1>
+
+<ul>
+    {% for user in users %}
+    <li>{{ user }}</li>
+    {% endfor %}
+</ul>
+
+<li> Voltar para <a href="/home">pagina inicial </a>!
+{% endblock%}

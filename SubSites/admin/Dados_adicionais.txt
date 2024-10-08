@@ -1,0 +1,7 @@
+Site da esp32 com os sensores funcionando:
+https://wokwi.com/projects/411096307089278977
+
+nome dos topicos no hivemtq:
+https://www.hivemq.com/demos/websocket-client/
+Topico1: banana
+Topico2: abacate
